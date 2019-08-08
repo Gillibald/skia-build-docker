@@ -1,0 +1,8 @@
+{
+	global:
+		sk_*;
+		gr_*;
+	local:
+		*;
+};
+
