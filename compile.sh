@@ -2,6 +2,6 @@ RUN="sudo docker run -it -v `pwd`/scripts:/scripts -v `pwd`/skiabuild:/work -w /
 
 set -x
 set -e
-$RUN skia-toolchain-x64 /scripts/x64.sh
+$RUN skia-toolchain-arm64 /scripts/arm64.sh
 $RUN skia-toolchain-armhf /scripts/armhf.sh
 
